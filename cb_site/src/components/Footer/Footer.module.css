@@ -1,0 +1,16 @@
+.Footer{
+  height: 100px;
+  background-color: #f3f3f3;
+  position: absolute;
+  width: 100%;
+}
+
+.Footer a{
+  padding-top: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.LinkDiv{
+  width: auto;
+  margin: auto;
+}

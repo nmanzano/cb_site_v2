@@ -1,0 +1,90 @@
+.ContactBody{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 86vh;
+  position: relative;
+}
+
+.ContactRow{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ButtonStyle{
+  color: black!important;
+  background-color: #d4d4d4!important;
+  border-color: black!important;
+  float: right;
+}
+
+.ContactTitle {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  text-align: center;
+  margin: auto;
+  margin-top:4%;
+  font-family: 'Oswald', sans-serif;
+  width: 300px;
+}
+
+.ContactTitle p{
+  font-size: 54px;
+  margin: 0;
+}
+
+.ContactCard{
+  padding-top: 15%;
+  padding-bottom: 0;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.ContactPictureCol, .ContactFieldsCol{
+  padding: 0!important;
+  overflow: hidden;
+  height: 460px;
+}
+
+.ContactPicture img{
+  width: 100%;
+}
+
+.ContactFieldsCol{
+  background-color:  #F7F7F7;
+}
+.EmailInput{
+  margin-top: 3%;
+}
+
+@media only screen and (max-width: 992px) {
+  .ContactCard{
+    padding-top: 0%;
+  }
+  .ContactRow{
+    top: 8%;
+    transform: translateY(-8%);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .ContactBody{
+    margin-bottom: 1%;
+    height: 67vh;
+  }
+  .ContactRow{
+    top: 30%;
+    transform: translateY(-30%);
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .ContactBody{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .ContactRow{
+    top: 20%;
+    transform: translateY(-20%);
+  }
+}

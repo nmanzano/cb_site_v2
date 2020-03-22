@@ -1,0 +1,38 @@
+.NavigationItem {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.NavigationItem:not(:first-of-type){
+  font-family: 'Oswald', sans-serif;
+}
+
+.NavigationItem a {
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  height: inherit;
+  /* line-height: 63px; */
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+  color: black;
+  background-color: #f3f3f3;
+  border-bottom: 4px solid #000000;
+  text-decoration: none;
+}
+
+
+@media (max-width: 500px) {
+  .NavigationItem {
+    margin: 0;
+    display: flex;
+    height: 4vh;
+  }
+}

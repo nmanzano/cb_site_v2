@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c5687d5.chunk.css",
+    "main.js": "/static/js/main.8e6c481e.chunk.js",
+    "main.js.map": "/static/js/main.8e6c481e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.276d7eda.js",
+    "runtime-main.js.map": "/static/js/runtime-main.276d7eda.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.fe4d5fe4.chunk.js": "/static/js/2.fe4d5fe4.chunk.js",
+    "static/js/2.fe4d5fe4.chunk.js.map": "/static/js/2.fe4d5fe4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5eca764b92d4edae37816149e3e94ec1.js": "/precache-manifest.5eca764b92d4edae37816149e3e94ec1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.5c5687d5.chunk.css.map": "/static/css/main.5c5687d5.chunk.css.map",
+    "static/js/2.fe4d5fe4.chunk.js.LICENSE": "/static/js/2.fe4d5fe4.chunk.js.LICENSE",
+    "static/media/ProjectProposal_phases.png": "/static/media/ProjectProposal_phases.94e9584a.png",
+    "static/media/ProjectProposal_staar.png": "/static/media/ProjectProposal_staar.490a9bc7.png",
+    "static/media/addie_model.png": "/static/media/addie_model.4d165826.png",
+    "static/media/headshot.jpg": "/static/media/headshot.82d12e44.jpg",
+    "static/media/job_description.png": "/static/media/job_description.f4717aa9.png",
+    "static/media/jobaids.png": "/static/media/jobaids.26bd0206.png",
+    "static/media/portfolio_curriculum_writing.png": "/static/media/portfolio_curriculum_writing.580ddc86.png",
+    "static/media/portfolio_examples.png": "/static/media/portfolio_examples.4c3a05f9.png",
+    "static/media/portfolio_instructional_design.png": "/static/media/portfolio_instructional_design.b82bb435.png",
+    "static/media/portfolio_prassessment.png": "/static/media/portfolio_prassessment.b50fe339.png",
+    "static/media/portfolio_video.png": "/static/media/portfolio_video.5ab64fa5.png",
+    "static/media/three_instructional_archs.png": "/static/media/three_instructional_archs.e35131ec.png",
+    "static/media/user_manual_continue.png": "/static/media/user_manual_continue.8c70de3f.png",
+    "static/media/usermanual_intro.png": "/static/media/usermanual_intro.aa2e84b0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.276d7eda.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.fe4d5fe4.chunk.js",
+    "static/css/main.5c5687d5.chunk.css",
+    "static/js/main.8e6c481e.chunk.js"
+  ]
+}

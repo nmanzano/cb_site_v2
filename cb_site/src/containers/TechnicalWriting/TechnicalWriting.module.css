@@ -1,0 +1,59 @@
+.EntireBody{
+  border: 1px solid red;
+}
+
+.CurriculumStyle{
+  text-align: right;
+}
+
+ul{
+  padding-top: 20px;
+  font-size: 13px;
+}
+
+.PortfolioTitle {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  text-align: center;
+  margin: auto;
+  margin-top:4%;
+  font-family: 'Oswald', sans-serif;
+  width: 220px;
+}
+
+.PortfolioTitle p{
+  font-size: 54px;
+  margin: 0;
+}
+
+.ProjectProposal ul{
+  text-align: center;
+}
+
+.UserManual ul{
+  text-align: center;
+}
+
+.JobDescriptionSpacer{
+  height: 40px;
+}
+
+.JobAids{
+  padding-bottom: 6%;
+}
+
+.JobAids ul, .JobDescription ul{
+  margin-top: 19px;
+}
+
+@media only screen and (max-width: 992px) {
+  ul{
+    padding-top: 5px;
+  }
+  .JobAids ul, .JobDescription ul{
+    margin-top: 0px;
+  }
+  .PtDiv{
+    padding-top: 3%;
+  }
+}

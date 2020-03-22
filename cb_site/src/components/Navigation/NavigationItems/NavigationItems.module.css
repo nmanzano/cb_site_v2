@@ -1,0 +1,15 @@
+.NavigationItems {
+  font-family: 'Libre Baskerville', serif;
+  font-size: xx-large!important;
+  color:#000000!important;
+}
+
+.NavLink{
+  font-family: 'Oswald', sans-serif;
+  font-size: 130%;
+}
+
+.NavBarMobile{
+  border-color:#000000!important;
+  background-color: #d4d4d4!important;
+}

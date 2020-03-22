@@ -1,0 +1,71 @@
+.PortfolioTitle {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  text-align: center;
+  margin: auto;
+  margin-top:4%;
+  font-family: 'Oswald', sans-serif;
+  width: 220px;
+}
+
+.PortfolioTitle p{
+  font-size: 54px;
+  margin: 0;
+}
+
+ul{
+  font-size: 13px;
+}
+h4{
+  text-align: center;
+}
+.VideoTextHeading{
+  text-align: left;
+}
+.ElearningTitleParentDiv{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.VideoDivFiller{
+  height: 30px;
+  width: 100%;
+}
+
+.VideoTextDiv{
+  margin-top: 50px;
+  /* border: 1px solid; */
+  /* width: 120%; */
+}
+
+.VirtualLearning{
+  padding-bottom: 6%;
+}
+
+.VirtualLearningTitles{
+  height: 65px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .VirtualLearningTitles{
+    height: auto;
+  }
+  .PtDiv{
+    padding-top: 3%;
+  }
+  .VideoBody{
+    text-align: center;
+  }
+  .VideoTextDiv ul{
+    text-align: center;
+    /* width: 50%; */
+    /* margin: auto; */
+  }
+  .VideoTextHeading{
+    text-align: center;
+  }
+}

@@ -1,0 +1,54 @@
+.HomeText {
+  font-family: 'Libre Baskerville', serif;
+  text-align: left;
+  padding: 3%;
+}
+
+.MainTitle{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
+}
+
+.HeadShotCol{
+  margin: auto;
+}
+
+.HeadShotParentDiv{
+  width: 75%;
+  margin: auto;
+}
+
+.HeadShotParentDiv img{
+  width: 100%;
+}
+
+.HomeBody{
+  height: 80vh;
+  font-size: 13px;
+  position: relative;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .HomeBody{
+    height: auto;
+  }
+  .HomeBodyContainer{
+    padding: 5%;
+  }
+  .HomeText {
+    padding-top: 4%;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .HomeBody{
+    height: 85vh;
+  }
+  .HomeBodyContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

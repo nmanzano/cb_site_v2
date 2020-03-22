@@ -1,0 +1,23 @@
+.Body{
+  max-width: 1029.8px;
+  margin: auto;
+  background-color: #f3f3f3;
+  margin-top: 60px;
+  padding: 25px;
+  font-family: 'Libre Baskerville', serif;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Body ul {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .Body{
+    height: auto;
+    margin-bottom: 21%;
+  }
+}
