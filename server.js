@@ -28,9 +28,9 @@ app.use(express.json()); app.post('/send-email', (req, res, next) => {
   const message = req.body.message
 
   const mail = {
-    from: name,
+    from: email,
     to: creds.USER,
-    subject: email,
+    subject: 'You Recieved A Message From ' + name,
     html: message
   }
 
