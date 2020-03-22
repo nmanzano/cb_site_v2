@@ -20,6 +20,7 @@
   width: 100%;
   position: absolute;
   height: -webkit-fill-available;
+  height: 100%;
   top: 0;
   background-color: #f3f3f3;
   z-index: -1;
@@ -65,18 +66,20 @@
   }
 
   .MainTitle{
-    position: sticky;
     top: 120px;
     height: 100%;
     max-height: calc(100vh - (80px * 2));
     line-height: 1;
     transform: rotate(180deg);
-    transform-origin: 50% 50%;
-    -webkit-transform-origin: 50% 50%;
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     text-align: center;
-    margin: 0px;
+  }
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+  .MainTitle:not(*:root), .chrome {
+    margin: inherit;
   }
 }

@@ -15,6 +15,7 @@ class PDFViewer extends React.Component {
       return (
         <div className={classes.Body}>
         <iframe
+        title={this.pdfSource}
         src={this.pdfSource}
         width="100%"
         height="100%"

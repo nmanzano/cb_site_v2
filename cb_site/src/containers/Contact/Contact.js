@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Row, Col, Form, Button, Container } from 'react-bootstrap';
+import {Row, Col, Button, Container } from 'react-bootstrap';
 import axios from 'axios';
 
 import classes from './Contact.module.css';

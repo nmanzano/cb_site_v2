@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import classes from './NavigationItems.module.css';
-import NavigationItem from '../NavigationItem/NavigationItem';
 import {Navbar, Nav } from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
 
